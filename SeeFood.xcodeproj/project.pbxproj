@@ -12,6 +12,7 @@
 		0798179D219FA79B00508D68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0798179B219FA79B00508D68 /* Main.storyboard */; };
 		0798179F219FA79C00508D68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0798179E219FA79C00508D68 /* Assets.xcassets */; };
 		079817A2219FA79C00508D68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 079817A0219FA79C00508D68 /* LaunchScreen.storyboard */; };
+		079817AA219FA7EA00508D68 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 079817A9219FA7EA00508D68 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0798179E219FA79C00508D68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		079817A1219FA79C00508D68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		079817A3219FA79C00508D68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		079817A9219FA7EA00508D68 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				0798179B219FA79B00508D68 /* Main.storyboard */,
 				0798179E219FA79C00508D68 /* Assets.xcassets */,
 				079817A0219FA79C00508D68 /* LaunchScreen.storyboard */,
+				079817A9219FA7EA00508D68 /* Inceptionv3.mlmodel */,
 				079817A3219FA79C00508D68 /* Info.plist */,
 			);
 			path = SeeFood;
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0798179A219FA79B00508D68 /* ViewController.swift in Sources */,
+				079817AA219FA7EA00508D68 /* Inceptionv3.mlmodel in Sources */,
 				07981798219FA79B00508D68 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KD44KCP832;
 				INFOPLIST_FILE = SeeFood/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KD44KCP832;
 				INFOPLIST_FILE = SeeFood/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
